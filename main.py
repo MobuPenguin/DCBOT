@@ -1,4 +1,5 @@
 #導入 Discord.py
+import token
 import random
 import re
 from discord.utils import get
