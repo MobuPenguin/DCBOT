@@ -166,4 +166,4 @@ async def on_message(message, var=None):
     if message.content.startswith('邀請網址'):
         channel = message.channel
         await channel.send('https://discord.com/api/oauth2/authorize?client_id=979210652491063376&permissions=2048&scope=applications.commands%20bot')
-client.run('OTc5MjEwNjUyNDkxMDYzMzc2.GbYkNT.EGYVtO3gLlLxKVuGX7JbzZN_cJF7_oPfhzk06U') #TOKEN 在剛剛 Discord Developer 那邊「BOT」頁面裡面
+client.run(token)
